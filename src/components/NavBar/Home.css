@@ -1,0 +1,46 @@
+.home {
+    background: rgb(54,30,72);
+    background: linear-gradient(90deg, rgba(54,30,72,1) 66%, rgba(140,28,209,1) 95%);
+    display: flex;
+    height: 40rem;
+    padding-top: 70px;
+    position: relative;
+}
+
+
+.home .container h1 {
+     margin: 0;
+}
+
+.home .code {
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 1%;
+}
+
+.home .codeearth {
+    height: 70%;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+}
+
+.home .container {
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    color: white;
+}
+
+@media(max-width: 600px)
+{    
+    .home .codeearth {
+        height: 30%;
+        padding-top: 10rem;
+        display: flex;
+        justify-content: center;
+        padding-right: 5rem;
+    }
+}
+

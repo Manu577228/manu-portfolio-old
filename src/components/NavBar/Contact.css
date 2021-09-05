@@ -1,0 +1,16 @@
+.contact {
+   background-color: #361e46; 
+   height: 100px;
+   display: flex;
+   align-items: center;
+}
+
+.contact .contacticons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contacticons :hover {
+    cursor: pointer;
+}
